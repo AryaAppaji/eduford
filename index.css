@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.C{
+    background-image: url(eduford_img/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 150px;
+}
+
+.A{
+    word-spacing: 30px;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
+
+.A img{
+    width: 190px;
+    height: 50px;
+    padding-right: 470px;
+    padding-left: 50px;
+}
+
+.A a{
+    text-decoration: none;
+    color: white;
+}
+
+.A a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+.B{
+    color: white;
+}
+.B h1{
+    padding-top: 125px;
+    font-size: 18mm;
+}
+
+.B button{
+    width: 60mm;
+    height: 12mm;
+    background-color: transparent;
+    color: white;
+    border:solid white 2px;
+}
+
+.B button:hover{
+    background-color: powderblue;
+}
+
+.D{
+    margin: auto;
+    width: 80%;
+    padding-top: 100px;
+}
+
+.D table{
+    width:80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-spacing: 20px;
+}
+
+
+
+.D table tr td{
+    background-color: rgba(224, 130, 130,0.1);
+    border-radius: 10px;
+    padding:20px;
+}
+
+
+.D p{
+    color: gray;
+}
+
+
+.E{
+    margin:auto;
+    width: 80%;
+}
+
+.E p{
+    color: gray;
+}
+
+.E table{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-spacing: 20px;
+}
+
+
+.E table tr td img{
+    width: 320px;
+    height: 440px;
+    border-radius: 10px;
+}
+
+.F{
+    margin: auto;
+    width: 80%;
+}
+
+.F p{
+    color: gray;
+}
+
+.F table td img{
+    width: 310px;
+    height:250px;
+    border-radius: 15px;
+}
+.G{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.G p{
+    width: 80%;
+    margin: auto;
+    color: gray;
+}
+
+.G table tr td p{
+    color: gray;
+}
+.G table tr td{
+    padding-top: 20px;
+    border-radius: 15px;
+    background-color: rgba(224, 130, 130,0.1);
+}
+
+.H{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("eduford_img/banner2.jpg");
+    border-radius: 15px;
+}
+
+.H button{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: solid white 2px;
+    color: white;
+}
+
+.H h1{
+    color: white;
+}
+
+.H button:hover{
+    background-color: powderblue;
+}
+
+.I{
+    padding-top: 100px;
+}
+
+.I p{
+    color: gray;
+}

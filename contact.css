@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.A{
+    padding-top: 25px;
+    word-spacing: 30px;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    background-image: url("eduford_img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.A img{
+    width: 190px;
+    height: 50px;
+    padding-right: 470px;
+    padding-left: 50px;
+}
+
+.A a{
+    text-decoration: none;
+    color: white;
+}
+
+.A a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+.A h1{
+    padding: 125px 0px;
+    color: white;
+}
+
+.B{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.B iframe{
+    width: 1000px;
+}
+
+.C{
+    display: inline;
+    float: left;
+}
+
+.C p{
+    color: grey;
+}
+
+.D{
+    display: inline-block;
+}
+
+.D form input{
+    width: 415px;
+    height: 30px;
+}
+
+.D form button{
+    padding: 10px;
+    color: blue;
+    background-color: white;
+    border: solid orangered 1px;
+}
+
+.D form button:hover{
+    color: white;
+    background-color: powderblue;
+    border: solid powderblue 1px;
+}
+
+.E{
+    width: 80%;
+    padding-bottom: 100px;
+}
+
+.F p{
+    color: gray;
+}
