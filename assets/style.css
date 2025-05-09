@@ -1,0 +1,23 @@
+#enroll{
+    background-image: url(banner2.jpg);
+    height: 300px;
+}
+
+#user1, #user2{
+    width: 40px;
+    height: 40px;
+}
+
+.card{
+    background-color: pink;
+}
+
+#intro{
+    background-image: url(banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*padding-bottom: 150px;*/
+}
