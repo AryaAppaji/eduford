@@ -12,7 +12,7 @@
     <title>Eduford Uni</title>
   </head>
   <body>
-    <header>
+    <!--<header>
       <nav class="navbar navbar-expand bg-dark">
         <ul class="navbar-nav align-items-center">
           <li class="nav-item">
@@ -37,7 +37,43 @@
           </li>
         </ul>
       </nav>
-    </header>
+    </header>-->
+    <nav>
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#sidebar"
+          aria-controls="sidebar"
+        >
+          ☰ Menu
+        </button>
+      </div>
+    </nav>
+
+    <aside
+      class="offcanvas offcanvas-start bg-dark"
+      tabindex="-1"
+      id="sidebar"
+      aria-labelledby="sidebarLabel"
+    >
+      <div class="offcanvas-header">
+        <img class="img-fluid" src="assets/logo.png" />
+        <button
+          class="btn-close btn-light"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+          style="background-color: white"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <a class="nav-link text-light py-2" href="#">HOME</a>
+        <a class="nav-link text-light py-2" href="about.html">ABOUT</a>
+        <a class="nav-link text-light py-2" href="course.html">COURSE</a>
+        <a class="nav-link text-light py-2" href="blog.html">BLOG</a>
+        <a class="nav-link text-light py-2" href="contact.html">CONTACT</a>
+      </div>
+    </aside>
     <main>
       <section
         class="position-relative container-fluid min-vh-100 d-flex justify-content-center align-items-center text-light"
@@ -210,7 +246,7 @@
         </div>
         <div class="row justify-content-evenly">
           <div class="col-lg-6 mt-3 mb-3">
-            <div class="card">
+            <div class="card h-100">
               <div class="card-body">
                 <q
                   >Eduford is home to me not because of the fancy building like
@@ -235,7 +271,7 @@
             </div>
           </div>
           <div class="col-lg-6 mt-3 mb-3">
-            <div class="card">
+            <div class="card h-100">
               <div class="card-body">
                 <q
                   >It's likely that you will come to love some of the most
@@ -295,5 +331,6 @@
         </div>
       </div>
     </footer>
+    <script src="assets/bootstrap.bundle.min.js"></script>
   </body>
 </html>
